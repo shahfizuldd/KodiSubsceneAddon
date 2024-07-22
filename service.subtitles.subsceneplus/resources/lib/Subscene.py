@@ -14,7 +14,7 @@ class SubsceneSubtitleService:
         if domain_name_ is not "":
             self.domain_name = domain_name_ 
         else:
-            self.domain_name = "https://www.subscene.com"
+            self.domain_name = "https://www.subscene.best"
 
     def search_title_match(self, stream):
         results = {
