@@ -1,0 +1,4 @@
+git clone https://github.com/Cih2001/KodiSubsceneAddon.git
+cd KodiSubsceneAddon/
+VER=$(cat service.subtitles.subsceneplus/addon.xml | grep version | grep -v "<" | sed -r "s/.*\"(.*)\"/\1/g")
+zip -r service.subtitles.subsceneplus-$VER.zip service.subtitles.subsceneplus/
